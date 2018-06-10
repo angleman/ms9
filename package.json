@@ -6,11 +6,11 @@
   "scripts": {
     "test": "exit 0"
   },
-  "author": "yieme",
+  "author": "angleman",
   "repository" :
   { 
     "type" : "git",
-    "url" : "https://github.com/angleman/ms9.git"
+    "url" : "https://angleman@github.com/angleman/ms9.git"
   },
   "license": "MIT"
 }
