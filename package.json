@@ -1,0 +1,16 @@
+{
+  "name": "ms9",
+  "version": "1.0.0",
+  "description": "Short human readable duration string",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "yieme",
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/angleman/ms9.git"
+  },
+  "license": "MIT"
+}
