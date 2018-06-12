@@ -10,8 +10,9 @@ const GRAN = {
 
 
 function ms9(duration) {
-  if (!duration) return '0μ'
-  if (duration < 1000) return duration + 'μ'
+  if (!duration) return '0ms'
+  if (duration < 0) duration = 0 - duration
+  if (duration < 1000) return duration + 'ms'
   duration = Math.floor(duration / 1000)
   let result = ''
   for (let i in GRAN) {
